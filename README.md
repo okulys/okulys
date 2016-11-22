@@ -48,3 +48,6 @@ Producto no comercial, de ámbito internacional y abierto a la comunidad. Idioma
 
 
 Muchas gracias por vuestro tiempo.
+
+Correo: inclusivecolors@gmail.com
+Twitter: @inclusivecolors
