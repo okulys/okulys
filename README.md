@@ -5,7 +5,7 @@ Estoy estudiando 4º de los estudios superiores de diseño gráfico en Barcelona
 
 Mi proyecto será una página web para divulgar el daltonismo y ofrecer herramientas a los profesionales que trabajamos con el color (diseñadores gráficos, frontends, diseñadores UI, programadores de videojuegos,...) para poder escoger colores inclusivos.
 
-Os invito a difundir este proyecto porque necesito personas daltónicas para colaborar como "betatesters". 
+Os invito a difundir este proyecto porque necesito personas daltónicas para colaborar como "betatesters". Podéis contactar conmigo en el correo: inclusivecolors@gmail.com
 
 A continuación os dejo la ficha de mi proyecto social para que conozcáis mejor mi propuesta.
 
