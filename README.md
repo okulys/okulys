@@ -1,4 +1,6 @@
-# inclusivecolors
+# Inclusive Colors
+@inclusivecolors
+
 Colores accesibles para daltónicos. Un proyecto Open Source // Accesible colors for colorblind. An open source project
 
 Estoy estudiando 4º de los estudios superiores de diseño gráfico en Barcelona. Estoy en la fase de preparación y documentación para la realización del proyecto final que entregaré en junio de 2017.
