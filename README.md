@@ -27,8 +27,7 @@ diferentes colores y por este motivo los daltónicos se sienten excluidos de bue
 Página web como herramienta divulgadora de esta problemática social y con herramientas por los profesionales y la industria
 para trabajar el color de manera inclusiva. Todo profesional que trabaje comunicando con el color tendría que tener en cuenta
 los 300 millones de daltónicos de la población mundial. Proyecto sin ánimo de lucro. Toda la información
-tendrá licencia Creative Commons: Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional y estará
-disponible a la comunidad GitHub.
+tendrá licencia libre y estará disponible en la comunidad GitHub.
 
 **Ámbito de aplicación, elementos y productos gráficos:**
 Dispondrá de diferentes secciones: educativa (para informar y concienciar), gama de colores completa, paletas
@@ -46,8 +45,8 @@ gráficos, diseñadores de interfaces de usuario, programadores de páginas web 
 **Condicionantes previos:**
 Producto no comercial, de ámbito internacional y abierto a la comunidad. Idiomas de partida, inglés y español. Traducible a otros idiomas mediante personas que quieran colaborar para traducirlo a su idioma.
 
-
-Muchas gracias por vuestro tiempo.
-
+**Contacto:**
 Correo: inclusivecolors@gmail.com
 Twitter: @inclusivecolors
+
+Muchas gracias por vuestro tiempo.
