@@ -25,7 +25,7 @@ este aspecto. El daltonismo es una deficiencia visual que consiste en la incapac
 diferentes colores y por este motivo los daltónicos se sienten excluidos de buena parte de la comunicación visual.
 
 
-**Objetivos del proyecte:**  
+**Objetivos del proyecto:**  
 Página web como herramienta divulgadora de esta problemática social y con herramientas por los profesionales y la industria
 para trabajar el color de manera inclusiva. Todo profesional que trabaje comunicando con el color tendría que tener en cuenta
 los 300 millones de daltónicos de la población mundial. Proyecto sin ánimo de lucro. Toda la información
