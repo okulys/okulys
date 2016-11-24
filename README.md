@@ -8,7 +8,7 @@ Mi proyecto será una página web para divulgar el daltonismo y ofrecer herramie
 Os invito a difundir este proyecto porque busco personas daltónicas que quieran colaborar con los tests de prueba.
 Podéis contactar conmigo en el correo: inclusivecolors@gmail.com
 
-A continuación os dejo la ficha de mi proyecto social para que conozcáis mejor mi propuesta.
+A continuación os dejo la información para conocer mi proyecto social.
 
 **Título provisional:**  
 Inclusive Colors
