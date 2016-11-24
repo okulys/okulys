@@ -55,7 +55,7 @@ Producto no comercial, de ámbito internacional y abierto a la comunidad. Idioma
 **Contacto:**  
 http://inclusivecolors.github.io  
 inclusivecolors@gmail.com  
-Twitter: @inclusivecolors
+https://twitter.com/inclusivecolors  
 
 
 Muchas gracias por vuestro tiempo.
