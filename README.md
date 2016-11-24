@@ -1,5 +1,5 @@
 # Inclusive Colors
-### Proyecto Open Source de colores accesibles para daltónicos
+### Proyecto open source para ayudar a diseñar usando colores pensados para daltónicos
 
 Estoy estudiando 4º de los estudios superiores de diseño gráfico en Barcelona. Estoy en la fase de preparación y documentación para la realización del proyecto final que entregaré en junio de 2017.
 
