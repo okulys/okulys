@@ -1,11 +1,12 @@
 # Inclusive Colors
-### Un proyecto Open Source de colores accesibles para daltónicos
+### Proyecto Open Source de colores accesibles para daltónicos
 
 Estoy estudiando 4º de los estudios superiores de diseño gráfico en Barcelona. Estoy en la fase de preparación y documentación para la realización del proyecto final que entregaré en junio de 2017.
 
 Mi proyecto será una página web para divulgar el daltonismo y ofrecer herramientas a los profesionales que trabajamos con el color (diseñadores gráficos, frontends, diseñadores UI, programadores de videojuegos,...) para poder escoger colores inclusivos.
 
-Os invito a difundir este proyecto porque necesito personas daltónicas para colaborar como "betatesters". Podéis contactar conmigo en el correo: inclusivecolors@gmail.com
+Os invito a difundir este proyecto porque busco personas daltónicas que quieran colaborar con los tests de prueba.
+Podéis contactar conmigo en el correo: inclusivecolors@gmail.com
 
 A continuación os dejo la ficha de mi proyecto social para que conozcáis mejor mi propuesta.
 
