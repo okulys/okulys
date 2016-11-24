@@ -3,7 +3,7 @@
 
 Estoy estudiando 4º de los estudios superiores de diseño gráfico en Barcelona. Estoy en la fase de preparación y documentación para la realización del proyecto final que entregaré en junio de 2017.
 
-Mi proyecto será una página web para divulgar el daltonismo y ofrecer herramientas a los profesionales que trabajamos con el color (diseñadores gráficos, frontends, diseñadores UI, programadores de videojuegos,...) para poder escoger colores inclusivos.
+Este proyecto será una página web donde se divulgará el daltonismo, la problemática de las personas que la padecen en un contexto de sociedad de la información y la comunicación donde el color es muy importante y ofrecer herramientas a los profesionales que trabajamos con el color (diseñadores gráficos, frontends, diseñadores UI, programadores de videojuegos,...) para ofrecerles paletas de colores testeadas con daltónicos y así ofrecer a los profesionales la seguridad de que trabajan con colores inclusivos.
 
 Os invito a difundir este proyecto porque busco personas daltónicas que quieran colaborar con los tests de prueba.
 Podéis contactar conmigo en el correo: inclusivecolors@gmail.com
