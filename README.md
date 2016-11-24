@@ -10,8 +10,7 @@ Podéis contactar conmigo en el correo: inclusivecolors@gmail.com
 
 A continuación os dejo la ficha de mi proyecto social para que conozcáis mejor mi propuesta.
 
-**Título provisional:**
-
+**Título provisional:**  
 Inclusive Colors
 
 
