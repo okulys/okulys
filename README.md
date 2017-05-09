@@ -8,7 +8,7 @@ Grupo de Telegram de los desarrolladores:
 https://t.me/okulys_dev
 
 Contacto:  
-www.okulys.com 
+www.okulys.com  
 hello@okulys.com  
 https://twitter.com/OkulysApp 
 
