@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prueba de Color</title>
+  </head>
+  <body>
+
+    {{#each colors}}
+      <div style="display:inline-block">
+      {{#each escala}}
+        <div style="background: {{this.rgb}}; width: 250px; height: 100px;">{{this.rgb}}</div>
+        <div style="background: {{this.protanopia}}; width: 250px; height: 100px;">Protanopia: {{this.protanopia}}</div>
+        <div style="background: {{this.deuteranopia}}; width: 250px; height: 100px;">Deuteranopia: {{this.deuteranopia}}</div>
+        <div style="background: {{this.tritanopia}}; width: 250px; height: 100px;">Tritanopia: {{this.tritanopia}}</div>
+      {{/each}}
+      </div>
+    {{/each}}
+
+  </body>
+</html>
