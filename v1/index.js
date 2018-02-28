@@ -2,7 +2,7 @@
 //const exphbs = require("express-handlebars");
 //const app = express();
 
-// En models/color definimos el tipo colors, el cual contiene
+// En models/color definimos el tipo Color, el cual contiene
 // las siguientes propiedades:
 // id (Array de Integer) -- Utilizado para pruebas, ignorar
 // name (String)
@@ -63,19 +63,16 @@ colors.forEach(function(item){
 })
 
 ///// VARIABLES BÁSICAS -- MODIFICAR ESTO //////
-
 var id_color_derecha = 1; // Purple
 var id_color_izq = 6; // Blue light
 var id_tonalidad_color_izq = 9; // [0,9] --> Blue Light 9
 var daltonismo = "protanopia"; // "protanopia" or "deuteranopia"
-
 ///// //////////////// //////
 
 // Recorremos cada una de las tonalidades del color que estará a la derecha
 array_color[id_color_derecha].escala.forEach(function(item, index){
   create_dual(index, item, id_color_izq, id_tonalidad_color_izq, id_color_derecha, daltonismo);
 })
-
 
 function create_dual(index, item, id_color_izq, id_tonalidad_color_izq, id_color_derecha, daltonismo){
 

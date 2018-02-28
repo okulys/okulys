@@ -1,6 +1,6 @@
 const blinder = require('color-blind');
 
-module.exports = function(id, name, hex){
+module.exports = function(id, name, hex) {
   this.id = id || null;
   this.name = name || null;
   this.hex = hex || null;
@@ -8,7 +8,7 @@ module.exports = function(id, name, hex){
   this.escala = getEscala(this.rgb);
 }
 
-function Tonalidad(id, red, green, blue, alpha){
+function Tonalidad(id, red, green, blue, alpha) {
   this.id = id || null;
   this.rgb = "rgba("+red+","+green+","+blue+","+alpha+")" || null;
   this.hex = rgbToHex(red, green, blue, alpha).split(".")[0] || null;
@@ -17,7 +17,7 @@ function Tonalidad(id, red, green, blue, alpha){
   this.tritanopia = blinder.tritanopia(this.hex) || null;
 }
 
-function getEscala(rgb){
+function getEscala(rgb) {
 
   var escala = [];
   const tonalidades = [-0.85, -0.7, -0.55, -0.35, -0.15, 0, 0.1, 0.25, 0.45, 0.65];
@@ -50,8 +50,7 @@ function getEscala(rgb){
 
 }
 
-function rgbToHex(red, green, blue, alpha)
-{
+function rgbToHex(red, green, blue, alpha) {
     var RGB_background = {r:255,g:255,b:255};
 
     var color = { r: (1 - alpha) * RGB_background.r + alpha * red,
@@ -60,7 +59,6 @@ function rgbToHex(red, green, blue, alpha)
 
     return "#" + ((1 << 24) + (color.r << 16) + (color.g << 8) + color.b).toString(16).slice(1);
 }
-
 
 function hexToRgb(hex) {
     var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
