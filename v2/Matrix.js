@@ -55,7 +55,8 @@ class Matrix {
     }
 
     /*
-    * origen <Punto>: {x: {r,g,b}, y: {r,g,b}}
+    * origen : {x: <Color>, y: <Color>}
+    * destino : {x: <Color>, y: <Color>}
     */
     getDistanciaHeuclidea(origen, destino){
 
@@ -78,7 +79,7 @@ class Matrix {
         this.getAllPoints("protanopia").forEach(item => {
             res.push(this.getDistanciaHeuclidea(point, item));
         })
-        return Math.min( ...res );
+        return Math.min(...res);
     }
  
 }
@@ -91,6 +92,7 @@ var pointX = new Color(0, "test", "#24E5F9");
 var pointY = new Color(0, "test", "#DEF1F9");
 var point = {x: pointX, y: pointY}
 
+/* ************ */
 const measureTime = require('measure-time');
 
 const getElapsed = measureTime();
@@ -100,17 +102,17 @@ console.log(test.isVisible(point))
 const elapsed = getElapsed();
 
 console.log(elapsed);
+/* ************ */
 
+// const express = require("express")
+// const app = express();
+// const exphbs = require("express-handlebars");
 
-const express = require("express")
-const app = express();
-const exphbs = require("express-handlebars");
+// app.set('view engine', 'handlebars');
+// app.engine('handlebars', exphbs());
 
-app.set('view engine', 'handlebars');
-app.engine('handlebars', exphbs());
+// app.get("/", (req, res)=>{
+//   res.render("index", {i: 0, points: test.getAllPoints("protanopia")})
+// })
 
-app.get("/", (req, res)=>{
-  res.render("index", {i: 0, points: test.getAllPoints("protanopia")})
-})
-
-app.listen(3000);
+// app.listen(3000);
