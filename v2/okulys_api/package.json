@@ -1,0 +1,25 @@
+{
+  "name": "okulys_db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "fastify": "^1.2.1",
+    "fs-jetpack": "^1.3.0",
+    "http-errors": "^1.6.3",
+    "level": "^3.0.0",
+    "level-sublevel": "^6.6.1",
+    "node-vibrant": "^3.0.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.6"
+  }
+}
