@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Fredoka_One;
+    src: url(../fonts/Fredoka_One/FredokaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(../fonts/Oswald/Oswald-Regular.ttf);
+}
+
+@font-face {
+    font-family: Source_Sans_Pro;
+    font-weight: 300;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Light.ttf);
+}
+
+@font-face {
+    font-family: Source_Sans_Pro;
+    font-weight: 600;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Bold.ttf);
+}
+
+@font-face {
+    font-family: Source_Sans_Pro;
+    font-weight: 500;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Source_Sans_Pro;
+    font-weight: normal;
+    src: url(../fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf);
+}
+
+* {
+    font-family: 'Source_Sans_Pro';
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+html, body {
+    width: 100%;
+}
+
+body {
+    background-color: #F4F5F5;
+}
+
+input:focus {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.cta {
+    font-family: 'Fredoka_One';
+    font-size: 1.25em;
+    padding: 7.5px 30px;
+    border: 0px;
+    border-radius: 25px;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+.cta-blue {
+    background-color: #3C5FFF;
+    color: white;
+}
+
+.cta-yellow {
+    background-color: #FFDC4A;
+    color: black;
+}

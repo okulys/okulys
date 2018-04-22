@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://necolas.github.io/normalize.css/8.0.0/normalize.css" rel="stylesheet">
+    <link href="public/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <section>
+
+        <nav>
+            
+        </nav>
+
+        <main>
+
+            <div id="selected_colors">
+                <h3>Colores seleccionados</h3>
+                <ul id="selected_colors_list">
+
+                </ul>
+            </div>
+
+            <div id="palette">
+            {{#each palette}}
+                <div class="column">
+                <h2 class="color_title_column">{{@key}}</h2>
+                {{#each this}}
+                    <div class="color_row" data-color="{{name}} - {{../../compare_color.name}}">
+                        <div class="color_comparator" style="flex: 40%; background: #{{../../compare_color.hex}};"></div><div class="color_slice" style="background: #{{hex}}"><p>{{name}}</p></div>
+                    </div>
+            {{/each}}
+            </div>
+            {{/each}}
+            </div>
+
+        </main>
+
+    </section>
+
+    <script>
+        var color_slices = document.querySelectorAll('.color_row');
+        var selected_colors_list = document.getElementById("selected_colors_list");
+
+        Array.from(color_slices).forEach(item => {
+            item.addEventListener('click', function(event) {
+                console.log(event);
+                if(event.target.tagName == "P") {
+                    event.path[2].classList.add("selected");
+                    var data_color = event.path[2].dataset.color;
+                } else {
+                    event.path[1].classList.add("selected");
+                    var data_color = event.path[1].dataset.color;
+                }
+                var li = document.createElement("li");
+                var content = document.createTextNode(data_color); 
+                li.appendChild(content); 
+                selected_colors_list.appendChild(li);
+            });
+        });
+    </script>
+
+</body>
+</html>
