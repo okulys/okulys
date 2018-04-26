@@ -13,6 +13,7 @@
   "dependencies": {
     "bcrypt": "^2.0.1",
     "fastify": "^1.2.1",
+    "fastify-jwt": "^0.2.1",
     "fs-jetpack": "^1.3.0",
     "http-errors": "^1.6.3",
     "level": "^3.0.0",

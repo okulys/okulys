@@ -56,7 +56,7 @@ class UserService {
         })
     }
 
-    verify(username, password) {
+    verify(username, password, fastify) {
         return new Promise((resolve, reject) => {
             DB.Auth.find({
                 attributes: ['username', 'password'], where: {
@@ -67,17 +67,17 @@ class UserService {
                     resolve(false)
                 } else {
                     bcrypt.compare(password, e.dataValues.password, function (err, res) {
-                        if (res == true) resolve(true); else resolve(false)
+                        if (res == true) { 
+                            resolve(fastify.jwt.sign({ username, password })); 
+                        } else resolve(false)
                     });
                 }
-
             });
         })
     }
 
-    // verifyJWT(request, reply, done) {
+    // verifyJWT(jwt, fastify) {
     //     const jwt = this.jwt
-    //     // const level = this.level
 
     //     if (!request.req.headers['auth']) {
     //         return done(new Error('Missing token header'))
